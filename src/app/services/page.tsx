@@ -1,6 +1,7 @@
 import MainLayout from "@/layouts/MainLayout";
 import img1 from "@/assets/LogoDesign.png"
 import Image from "next/image";
+import Head from "next/head";
 
 const page = () => {
 
@@ -33,6 +34,9 @@ const page = () => {
     return (
         <div>
             <MainLayout>
+                <Head>
+                    <title>Services || grafx-design-studio-2023</title>
+                </Head>
                 <div className="w-full mx-auto lg:mb-20">
                     <h2
                         className="text-center my-10 md:max-w-lg max-w-xs mx-auto md:text-5xl text-4xl font-extrabold border-b-8 border-b-warning"

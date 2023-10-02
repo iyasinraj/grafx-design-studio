@@ -22,13 +22,13 @@ const page = () => {
 
     interface PortfolioItem {
         id: number;
-        imageUrl: any; 
+        imageUrl: any;
         title: string;
     }
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [fullscreenImage, setFullscreenImage] = useState<PortfolioItem | null>(null);
-    
+
     const bannerStyle = {
         backgroundImage: `url(${cover.src})`,
         backgroundSize: 'cover',
@@ -63,7 +63,7 @@ const page = () => {
             <MainLayout>
                 <div>
                     <Head>
-                        <title>Our Portfolio - Your Company</title>
+                        <title>Our Portfolio || grafx-design-studio-2023</title>
                     </Head>
                     <div className="">
                         <div className="container mx-auto py-12 px-4">

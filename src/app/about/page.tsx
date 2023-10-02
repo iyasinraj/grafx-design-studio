@@ -2,10 +2,14 @@ import MainLayout from "@/layouts/MainLayout";
 import Image from "next/image";
 import img from "@/assets/fbProfile.jpg"
 import Link from "next/link";
+import Head from "next/head";
 
 const page = () => {
     return (
         <div>
+            <Head>
+                <title>about || grafx-design-studio-2023</title>
+            </Head>
             <MainLayout>
                 <div className="p-8">
                     <h1

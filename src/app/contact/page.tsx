@@ -7,7 +7,7 @@ const page = () => {
         <MainLayout>
             <div>
                 <Head>
-                    <title>Contact Us - Grafx-Design-Studio</title>
+                    <title>Contact Us || Grafx-Design-Studio-2023</title>
                 </Head>
                 <div className="">
                     <div className="container mx-auto py-12 px-4">

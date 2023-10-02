@@ -1,9 +1,13 @@
 import Testimonials from "@/components/Home/Testimonials";
 import MainLayout from "@/layouts/MainLayout";
+import Head from "next/head";
 
 const page = () => {
     return (
         <div>
+            <Head>
+                <title>Testimonials || grafx-design-studio-2023</title>
+            </Head>
             <MainLayout>
                 <Testimonials />
                 <div className="px-4 mb-10 h-full md:px-0">
